@@ -11,16 +11,11 @@ def login():
 def register():
     return render_template("register.html")
 
-@app.route("/explore")
-def explore():
-    return render_template("explore.html")
-
 @app.route('/log', methods=['POST'])
 def return_log():
     data = request.form.to_dict(flat=False)
     print(data)
     return redirect(url_for('explore'))
-
 
 @app.route("/reg", methods=['POST'])
 def return_reg():

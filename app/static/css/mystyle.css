@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  line-height: 1.5;
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+@media (min-width: 10px){
+  .navbar{
+    position: relative;
+    align-items: center;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    background-color:#343a40;
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+}
+
+.mb {
+  margin-bottom: 1.5rem;
+}
+
+.nav-text{
+  display: flex;
+  text-align: center;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  padding-left: .5rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  color: white;
+  list-style: none;
+}
+
+.nav-link{
+  display: flex;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  text-decoration: none;
+  background-color: transparent;
+  color: rgba(255,255,255,.5);
+  list-style: none;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 100px;
+  max-width: 600px; 
+  border: 1px solid rgb(78, 75, 75);
+  background-color: #4f983c;
+  border-radius: .25rem;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+h1 {
+  color: black;
+  margin-left: 20px;
+  font-size: 2.5rem;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+div {
+  display: block;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.btn {
+  display: inline-block;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px){
+  .container {
+    max-width: 720px;
+  }
+}
+
+.text-box{
+  padding: 4rem 2rem;
+  background-color:	#d9baee;
+  border-radius: .3rem;
+  box-sizing: border-box;
+}
+
+.container {
+ 
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.starter-template { 
+  padding: 3rem 1.5rem; 
+  text-align: center; 
+} 
+

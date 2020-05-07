@@ -1,3 +1,32 @@
+@media (min-width: 768px){
+  .container {
+    max-width: 720px;
+    align-items: center;
+  }
+  .col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 10px){
+  .navbar{
+    position: relative;
+    align-items: center;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    background-color:#343a40;
+    flex-direction: row;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -10,19 +39,6 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-}
-
-@media (min-width: 10px){
-  .navbar{
-    position: relative;
-    align-items: center;
-    display: flex;
-    padding-left: 0;
-    list-style: none;
-    background-color:#343a40;
-    box-sizing: border-box;
-    flex-direction: row;
-  }
 }
 
 .mb {
@@ -51,26 +67,26 @@ body {
   list-style: none;
 }
 
-#login .container #login-row #login-column #login-box {
-  margin-top: 100px;
-  max-width: 600px; 
-  border: 1px solid rgb(78, 75, 75);
-  background-color: #4f983c;
-  border-radius: .25rem;
-}
-
-#login .container #login-row #login-column #login-box #login-form {
-  padding: 20px;
-}
-
-#login .container #login-row #login-column #login-box #login-form #register-link {
-  margin-top: -85px;
-}
-
 h1 {
   color: black;
   margin-left: 20px;
   font-size: 2.5rem;
+}
+
+.h3, h3 {
+  font-size: 1.75rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0rem;
+  margin-bottom: .5rem;
 }
 
 li {
@@ -84,11 +100,11 @@ ul {
 
 p {
   margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 div {
-  display: block;
+  display: block; 
 }
 
 a {
@@ -96,6 +112,81 @@ a {
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -97px;
+}
+
+#login-link {
+  margin-top: -45px;
+}
+
+.text-info {
+  color: #17a2b8!important;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.text-right {
+  text-align: right!important;
+}
+
+.align-items-center {
+  -ms-flex-align: center!important;
+  align-items: center!important;
+}
+
+.justify-content-center {
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
 }
 
 .btn {
@@ -113,29 +204,33 @@ a {
   font-size: 1.5rem;
 }
 
-@media (min-width: 768px){
-  .container {
-    max-width: 720px;
-  }
-}
-
 .text-box{
   padding: 4rem 2rem;
   background-color:	#d9baee;
   border-radius: .3rem;
-  box-sizing: border-box;
+
 }
 
 .container {
- 
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.starter-template { 
-  padding: 3rem 1.5rem; 
-  text-align: center; 
-} 
+ .col-md-12, .col-md-6, .col-md-auto {
+  position: relative;
+  width: 80%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}

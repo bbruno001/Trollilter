@@ -63,7 +63,7 @@ body {
   padding-left: .5rem;
   text-decoration: none;
   background-color: transparent;
-  color: rgba(255,255,255,.5);
+  color: white;
   list-style: none;
 }
 
@@ -164,7 +164,7 @@ button, input, optgroup, select, textarea {
 }
 
 #login-link {
-  margin-top: -45px;
+  margin-top: -55px;
 }
 
 .text-info {
@@ -196,8 +196,8 @@ button, input, optgroup, select, textarea {
   line-height: 1.5;
   border-radius: .3rem;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #926c48;
+  border-color: #926c48;
 }
 
 .lead {
@@ -206,7 +206,7 @@ button, input, optgroup, select, textarea {
 
 .text-box{
   padding: 4rem 2rem;
-  background-color:	#d9baee;
+  background-color:#eed3b8;
   border-radius: .3rem;
 
 }

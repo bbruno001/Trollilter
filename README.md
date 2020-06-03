@@ -1,4 +1,3 @@
 # Trollilter
-Trollilter is a replica of social network that is being developed in order to learn programming.
-
+Trollilter is a crud made to study Python & Flask.
 
